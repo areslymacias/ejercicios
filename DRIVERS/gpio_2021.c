@@ -57,17 +57,6 @@ uint8_t Gpio_Pin_in( uint_fast16_t pin_)
         return (0x01);
     return (0x00);
 }
-//Actividad 8
-
-uint8_t Gpio_Pin_in_P2( uint_fast16_t pin_)
-{
-    uint_fast16_t inputPinValue;
-    inputPinValue = PUERTO_P2->IN & (pin_);         // LEE EL REGISTRO QUE INDICA EL VALOR DE ENTRADA DE UN PIN
-    if (inputPinValue > 0)                          // RETORNA EL VALOR 1 o 0
-        return (0x01);
-    return (0x00);
-}
-                                                   // <-- E8
 
 /******************************************************************************
  * Function: GPIO_setPinSalida
