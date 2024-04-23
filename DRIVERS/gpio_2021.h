@@ -48,18 +48,7 @@
 #define GPIO_PORT_P4    4
 #define GPIO_PORT_P5    5
 
-//Definiciones Actividad 7
-#define PUERTO1    1
-#define PUERTO2    2
-#define PUERTO3    2
-#define PUERTO4    4
-#define PUERTO5    5
-#define BOTON1    (0x0002)
-#define BOTON4    (0x0010)
-#define LED         (0x0001)
-#define LEDROJO     (0x0001)
-#define LEDVERDE    (0x0002)
-#define LEDAZUL     (0x0004)
+
 
 //Definiciones de pines para las funciones
 #define GPIO_PIN0    (0x0001)
